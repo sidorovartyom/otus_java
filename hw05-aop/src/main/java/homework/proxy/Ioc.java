@@ -37,7 +37,7 @@ class Ioc {
             var listMethodParam = stream(method.getParameterTypes()).toList();
             for (var m : this.annotatedMethods) {
                 var listAnnMethodParam = stream(m.getParameterTypes()).toList();
-                if (m.getName() == method.getName() && listAnnMethodParam.equals(listMethodParam)) {
+                if (m.getName().equals(method.getName()) && listAnnMethodParam.equals(listMethodParam)) {
                         System.out.println("\nexecuted method: " + method.getName() + ", param: " + Arrays.toString(args));
                 }
             }
