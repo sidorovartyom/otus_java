@@ -4,10 +4,14 @@ include("hw02-generics")
 include("hw03-reflection_annotations")
 include("hw04-gc")
 include("hw05-aop")
+include("hw07-structuralPatterns")
 
 include("L06-annotations")
 include("L08-gc")
 include("L10-byteCodes")
+include("L13-creationalPatterns")
+include("L14-behavioralPatterns")
+include("L15-structuralPatterns")
 
 pluginManagement {
     val jgitver: String by settings
