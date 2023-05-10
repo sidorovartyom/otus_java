@@ -5,6 +5,8 @@ include("hw03-reflection_annotations")
 include("hw04-gc")
 include("hw05-aop")
 include("hw07-structuralPatterns")
+include("hw06-solid")
+include("hw08-io")
 
 include("L06-annotations")
 include("L08-gc")
@@ -12,6 +14,7 @@ include("L10-byteCodes")
 include("L13-creationalPatterns")
 include("L14-behavioralPatterns")
 include("L15-structuralPatterns")
+include("L16-io:demo")
 
 pluginManagement {
     val jgitver: String by settings
@@ -19,6 +22,7 @@ pluginManagement {
     val springframeworkBoot: String by settings
     val johnrengelmanShadow: String by settings
     val jib: String by settings
+    val protobufVer: String by settings
 
     plugins {
         id("fr.brouillard.oss.gradle.jgitver") version jgitver
@@ -26,5 +30,6 @@ pluginManagement {
         id("org.springframework.boot") version springframeworkBoot
         id("com.github.johnrengelman.shadow") version johnrengelmanShadow
         id("com.google.cloud.tools.jib") version jib
+        id("com.google.protobuf") version protobufVer
     }
 }
