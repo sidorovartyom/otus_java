@@ -7,7 +7,6 @@ include("hw05-aop")
 include("hw07-structuralPatterns")
 include("hw06-solid")
 include("hw08-io")
-
 include("L06-annotations")
 include("L08-gc")
 include("L10-byteCodes")
