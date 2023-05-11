@@ -1,0 +1,27 @@
+Xms/Xmx	result
+256	    OutOfMemoryError: Java heap space
+512	    spend msec:10101, sec:10
+768	    spend msec:9024, sec:9
+1024	spend msec:8991, sec:8
+1280	spend msec:9336, sec:9
+1536	spend msec:8844, sec:8
+1792	spend msec:7718, sec:7 +
+2048	spend msec:8638, sec:8
+2304	spend msec:8388, sec:8
+
+Оптимальный размер хипа - 1792 Мб. Тестировал с шагом 256 Мб
+
+Xms/Xmx	result
+256	    spend msec:2275, sec:2
+512	    spend msec:1372, sec:1 +
+768	    spend msec:1449, sec:1
+1024	spend msec:1474, sec:1
+1280	spend msec:1384, sec:1
+1536	spend msec:1391, sec:1
+1792	spend msec:1535, sec:1
+2048	spend msec:1513, sec:1
+2304	spend msec:1393, sec:1
+
+При замене на примитивы
+Оптимальный размер хипа - 512 Мб.
+
