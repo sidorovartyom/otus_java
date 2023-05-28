@@ -21,6 +21,8 @@ include("L18-rdbms")
 include("L19-jdbc:demo")
 include("L19-jdbc:homework")
 include("L20-hibernate")
+include("L21-jpql")
+include("L22-cache")
 
 pluginManagement {
     val jgitver: String by settings
