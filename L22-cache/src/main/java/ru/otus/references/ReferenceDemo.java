@@ -20,8 +20,8 @@ public class ReferenceDemo {
     private static final Logger logger = LoggerFactory.getLogger(ReferenceDemo.class);
 
     public static void main(String[] args) throws InterruptedException {
-        // strong();
-        // weak();
+        //strong();
+        weak();
         // soft();
         // finalizeDemo();
         // phantom();
@@ -174,6 +174,7 @@ public class ReferenceDemo {
         }
 
         @Override
+        @SuppressWarnings("deprecation")
         protected void finalize() {
             logger.info("finalize it");
             if (doRevival) {
