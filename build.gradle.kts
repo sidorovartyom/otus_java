@@ -50,6 +50,7 @@ allprojects {
 
     val reflections: String by project
 
+
     apply(plugin = "io.spring.dependency-management")
     dependencyManagement {
         dependencies {
@@ -62,7 +63,7 @@ allprojects {
             dependency("org.openjdk.jmh:jmh-core:$jmh")
             dependency("org.openjdk.jmh:jmh-generator-annprocess:$jmh")
             dependency("org.ow2.asm:asm-commons:$asm")
-            dependency("org.glassfish:jakarta.json:${glassfishJson}")
+            dependency("org.glassfish:jakarta.json:$glassfishJson")
             dependency("org.ehcache:ehcache:$ehcache")
 
             dependency("org.projectlombok:lombok:$lombok")
