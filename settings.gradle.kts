@@ -9,6 +9,7 @@ include("hw07-structuralPatterns")
 include("hw06-solid")
 include("hw08-io")
 include("hw10-jpql")
+include("hw13-di")
 include("L19-jdbc")
 include("L06-annotations")
 include("L08-gc")
@@ -33,6 +34,7 @@ include("L23-noSQL:cassandra-demo")
 include("L24-webServer")
 include("L25-di:class-demo")
 include("L25-di:homework-template")
+include("L26-springBootMvc")
 
 pluginManagement {
     val jgitver: String by settings
