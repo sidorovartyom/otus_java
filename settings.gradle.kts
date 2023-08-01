@@ -10,6 +10,7 @@ include("hw06-solid")
 include("hw08-io")
 include("hw10-jpql")
 include("hw13-di")
+include("hw17-sequence-of-numbers")
 
 include("L01-gradle")
 
