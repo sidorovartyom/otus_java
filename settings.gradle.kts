@@ -10,6 +10,8 @@ include("hw06-solid")
 include("hw08-io")
 include("hw10-jpql")
 include("hw13-di")
+include("hw18-webflux:client-service")
+include("hw18-webflux:datastore-service")
 
 include("L01-gradle")
 
