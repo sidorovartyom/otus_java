@@ -10,11 +10,11 @@ include("hw06-solid")
 include("hw08-io")
 include("hw10-jpql")
 include("hw13-di")
+include("hw17-sequence-of-numbers")
 include("hw18-webflux:client-service")
 include("hw18-webflux:datastore-service")
 
 include("L01-gradle")
-
 include("L02-gradle2")
 include("L02-gradle2-libApi")
 include("L02-gradle2-libApiUse")
@@ -22,71 +22,52 @@ include("L03-qa")
 include("L04-generics")
 include("L05-collections")
 include("L06-annotations")
-
 include("L08-gc:demo")
 include("L08-gc:homework")
-
 include("L09-docker")
 include("L10-byteCodes")
 include("L11-java8")
-
 include("L12-solid")
 include("L13-creationalPatterns")
 include("L14-behavioralPatterns")
 include("L15-structuralPatterns:demo")
 include("L15-structuralPatterns:homework")
-
 include("L16-io:demo")
 include("L16-io:homework")
-
 include("L17-nio-logging")
-
 include("L18-rdbms")
-
 include("L19-jdbc:demo")
 include("L19-jdbc:homework")
-
 include("L20-hibernate")
-
 include("L21-jpql:class-demo")
 include("L21-jpql:homework-template")
 include("L22-cache")
-
 include ("L23-noSQL:mongo-db-demo")
 include ("L23-noSQL:mongo-db-reactive-demo")
 include ("L23-noSQL:neo4j-demo")
 include ("L23-noSQL:redis-demo")
 include ("L23-noSQL:cassandra-demo")
-
 include ("L24-webServer")
-
 include ("L25-di:class-demo")
 include ("L25-di:homework-template")
-
 include ("L26-springBootMvc")
-
 include ("L27-websocket:websocket")
 include ("L27-websocket:messager")
 include ("L28-springDataJdbc")
 include ("L29-threads")
 include ("L30-JMM")
-
 include ("L31-concurrentCollections:ConcurrentCollections")
 include ("L31-concurrentCollections:QueueDemo")
-
 include ("L33-multiprocess:processes-demo")
 include ("L33-multiprocess:sockets-demo")
 include ("L33-multiprocess:rmi-demo")
 include ("L33-multiprocess:grpc-demo")
-
 include ("L34-rabbitMQ:allServicesModels")
 include ("L34-rabbitMQ:approvalService")
 include ("L34-rabbitMQ:mainService")
-
 include ("L34-executors")
 include ("L35-NIO")
 include ("L36-netty")
-
 include ("L37-webflux:source")
 include ("L37-webflux:processor")
 include ("L37-webflux:client")
