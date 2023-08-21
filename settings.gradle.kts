@@ -11,6 +11,7 @@ include("hw08-io")
 include("hw10-jpql")
 include("hw12-webServer")
 include("hw13-di")
+include("hw14-spring-boot")
 include("hw17-sequence-of-numbers")
 include("hw18-webflux:client-service")
 include("hw18-webflux:datastore-service")
@@ -74,6 +75,8 @@ include ("L37-webflux:processor")
 include ("L37-webflux:client")
 include ("L37-webflux-chat:client-service")
 include ("L37-webflux-chat:datastore-service")
+include ("L38-kafka:consumer")
+include ("L38-kafka:producer")
 
 pluginManagement {
     val jgitver: String by settings
