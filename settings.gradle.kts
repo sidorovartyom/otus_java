@@ -82,6 +82,8 @@ include ("L37-webflux-chat:datastore-service")
 include ("L38-kafka:consumer")
 include ("L38-kafka:producer")
 
+include("etl")
+
 pluginManagement {
     val jgitver: String by settings
     val dependencyManagement: String by settings
