@@ -20,7 +20,8 @@ create table sales
     code int,
     client_code int,
     product_code int,
-    amount_rub int
+    amount_rub int,
+    date_sale date
 );
 
 create table stg_client
@@ -40,6 +41,7 @@ create table stg_sales
     code int,
     client_code int,
     product_code int,
-    amount_rub int
+    amount_rub int,
+    date_sale date
 );
 

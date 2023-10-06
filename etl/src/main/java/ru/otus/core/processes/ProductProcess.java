@@ -18,7 +18,7 @@ public class ProductProcess {
     private static final List<String> param = Arrays.asList("code", "name");
 
     public void etl() throws IOException {
-        log.info("file path: {}, table: {}, param: {}", filePath, tableStage, param);
+        log.info("file path: {}, table core: {}, table stage: {}, param: {}", filePath, tableCore, tableStage, param);
         CsvEtlProcess etl = new CsvEtlProcess();
         etl.loadCsvFile(filePath, tableStage, param);
         etl.merge(tableCore, tableStage, param);
